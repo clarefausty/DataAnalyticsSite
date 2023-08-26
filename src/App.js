@@ -21,7 +21,7 @@ function App() {
       <Analytics/>
       <Newsletter/>
       <div className='w-full bg-white py-[10rem] px-4'>
-    <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-2'>
+    <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
       {getCard}
       </div>
       </div>
