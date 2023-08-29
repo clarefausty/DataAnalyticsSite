@@ -21,7 +21,7 @@ function Hero() {
             />
         </div>
         <p className='md:text-2xl text-xl font-bold text-gray-500'>Monitor your data analytics to increase revenue for BTB, BTC, SAAS platforms.</p>
-        <button className='bg-[#00df9a] rounded-md w-[200px] font-medium px-6 py-3  mx-auto my-6'>Get Started</button>
+        <button className='bg-[#00df9a] rounded-md w-[200px] font-medium px-6 py-3  mx-auto my-6 hover:text-[#00df9a] hover:bg-white'>Get Started</button>
     </div>
   )
 }

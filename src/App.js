@@ -6,6 +6,7 @@ import Analytics from './Components/Analytics';
 import Newsletter from './Components/Newsletter';
 import Card from './Components/Card';
 import data from './Components/data';
+import Footer from './Components/Footer';
 
 function App() {
   const getCard = data.map(function(datum){
@@ -25,6 +26,7 @@ function App() {
       {getCard}
       </div>
       </div>
+      <Footer/>
     </div>
   );
 }
