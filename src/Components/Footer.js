@@ -1,5 +1,5 @@
 import React from 'react'
-import { LoremIpsum } from 'react-lorem-ipsum';
+
 import{ FaDribbbleSquare,
         FaFacebookSquare,
         FaGithubSquare,
@@ -11,7 +11,7 @@ function Footer() {
   return (
     <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 text-gray-300 gap-8'>
       <div>
-      <h1 className='w-full text-3xl font-bold text-[#00df9a]'>React.</h1>
+      <h1 className='w-full text-3xl font-bold text-[#00df9a] font-serif'>Data.</h1>
       <div  >
       <p className="py-4">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno
          estándar de las industrias desde el año 1500, cuando un impresor
