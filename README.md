@@ -25,5 +25,5 @@ Run npm start
 Voila!, your web app is now powered up
 
 Live link https://clarefaustydatasite.netlify.app/
-
+ [alt text](https://github.com/clarefausty/DataAnalyticsSite/blob/master/public/Assets/Responsive%20HeroData.png)
 
