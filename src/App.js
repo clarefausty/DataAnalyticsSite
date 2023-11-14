@@ -1,7 +1,7 @@
 
 import './App.css';
 import Analytics from './Components/Analytics';
-import Card from './Components/Card';
+import Cards from './Components/Cards';
 import Hero from './Components/Hero';
 import Layout from './Components/Layout';
 import Newsletter from './Components/Newsletter';
@@ -20,7 +20,7 @@ function App() {
       <Route path="/" element={<Hero />} />
       <Route path='/analytics' element={<Analytics/>} />
       <Route path='/newsletter' element={<Newsletter/>} />
-      <Route path='/card' element={<Card/>} />
+      <Route path='/card' element={<Cards/>} />
       </Route>
       </Routes>
     </BrowserRouter>
