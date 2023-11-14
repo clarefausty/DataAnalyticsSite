@@ -1,33 +1,28 @@
 
 import './App.css';
-import Navbar from './Components/Navbar';
-import Hero from './Components/Hero';
 import Analytics from './Components/Analytics';
-import Newsletter from './Components/Newsletter';
-import Card from './Components/Card';
-import data from './Components/data';
-import Footer from './Components/Footer';
+import Hero from './Components/Hero';
+import Layout from './Components/Layout';
+import Screen from './Components/Screen';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+
 
 function App() {
-  const getCard = data.map(function(datum){
-    return <Card
-    
-    {...datum}
-    />
-  })
+  
   return (
-    <div className="border-blue-800 ">
-      <Navbar/>
-      <Hero/>
-      <Analytics/>
-      <Newsletter/>
-      <div className='w-full bg-white py-[10rem] px-4'>
-    <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
-      {getCard}
-      </div>
-      </div>
-      <Footer/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+      <Route index element={<Screen />} />
+      <Route element={<Layout />}>
+      <Route path="/" element={<Hero />} />
+      <Route path='/analytics' element={<Analytics/>} />
+      
+      </Route>
+      </Routes>
+    </BrowserRouter>
+      
+    
   );
 }
 
