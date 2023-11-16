@@ -5,6 +5,7 @@ import Analytics from "./Analytics";
 import Newsletter from "./Newsletter";
 import Footer from "./Footer";
 import Cards from "./Cards";
+import Contact from "./Contact";
 
 
 const Screen = () => {
@@ -17,6 +18,7 @@ const Screen = () => {
         <Analytics />
         <Newsletter />
         <Cards/>
+        <Contact/>
         <Footer />
       </div>
     </div>

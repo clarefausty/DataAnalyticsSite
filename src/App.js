@@ -2,6 +2,7 @@
 import './App.css';
 import Analytics from './Components/Analytics';
 import Cards from './Components/Cards';
+import Contact from './Components/Contact';
 import Hero from './Components/Hero';
 import Layout from './Components/Layout';
 import Newsletter from './Components/Newsletter';
@@ -21,6 +22,7 @@ function App() {
       <Route path='/analytics' element={<Analytics/>} />
       <Route path='/newsletter' element={<Newsletter/>} />
       <Route path='/card' element={<Cards/>} />
+      <Route path='/contact' element={<Contact/>} />
       </Route>
       </Routes>
     </BrowserRouter>

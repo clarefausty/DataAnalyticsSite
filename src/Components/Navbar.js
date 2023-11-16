@@ -15,7 +15,7 @@ function Navbar() {
             <li className='p-4 hover:text-[#00df9a] cursor-pointer hover:font-medium'><Link to="/analytics">Company</Link></li>
             <li className='p-4 hover:text-[#00df9a] cursor-pointer hover:font-medium'><Link to="/newsletter">Resources</Link></li>
             <li className='p-4 hover:text-[#00df9a] cursor-pointer hover:font-medium'><Link to="/card">About</Link></li>
-            <li className='p-4 hover:text-[#00df9a] cursor-pointer hover:font-medium'>Contact</li>
+            <li className='p-4 hover:text-[#00df9a] cursor-pointer hover:font-medium'><Link to="/contact">Contact</Link></li>
         </ul>
         <div className='block md:hidden' onClick={handleNav}>
             {!nav? <AiOutlineClose size={20}/> : <AiOutlineMenu  size={20}/>}
@@ -28,7 +28,7 @@ function Navbar() {
             <li className='p-4 border-b border-gray-600'><Link to="/analytics">Company</Link></li>
             <li className='p-4 border-b border-gray-600'><Link to="/newsletter">Resources</Link></li>
             <li className='p-4 border-b border-gray-600'><Link to="/card">About</Link></li>
-            <li className='p-4 border-b border-gray-600'>Contact</li>
+            <li className='p-4 border-b border-gray-600'><Link to="/contact">Contact</Link></li>
         </ul>
         </div>
     </div>
